@@ -89,8 +89,6 @@ param(
     [Parameter(Mandatory=$false)]
     [String]$repopassword,
 
-    [Parameter(Mandatory=$false)]
-    [String]$force
 )
 
 function Set-CertPolicy() {
